@@ -1,0 +1,68 @@
+@import url("https://fonts.googleapis.com/css2?family=Manrope:wght@200..800&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+
+body {
+  margin: 0;
+  background: #fafafa;
+  color: #090021;
+  font-family: "Poppins", sans-serif;
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0px 16px 0px 16px;
+  border-bottom: 1px solid #b8b6bf;
+}
+
+.liste-nav {
+  display: flex;
+  gap: 16px;
+  list-style: none;
+  font-size: 14px;
+}
+
+.liste-nav a {
+  color: #090021;
+  text-decoration: none;
+}
+
+header {
+  background-color: #137160;
+  color: #f8f8f8;
+  padding: 100px 32px 8px 32px;
+}
+
+h1 {
+  font-size: 32px;
+}
+
+p.subtitle {
+  font-size: 22px;
+}
+
+h2 {
+  font-size: 25px;
+}
+
+section {
+  margin: 86px 16px;
+}
+
+.card {
+  border: 1px solid #f5f5f5;
+  padding: 16px 16px 8px 16px;
+  border-radius: 8px;
+  background-color: #ffffff;
+}
+
+.flex-concept {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 16px;
+}
+
+#concepts .card {
+  width: calc(50% - 8px);
+  box-sizing: border-box;
+}
